@@ -1,0 +1,63 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Título principal */
+h1 {
+    color: #174a7e;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Subtítulos */
+h2 {
+    color: #245d91;
+    margin-top: 30px;
+}
+
+/* Párrafos */
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Tabla de alumnos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background-color: #245d91;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #eaf3fc;
+}
+
+/* Gráfica */
+canvas {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
